@@ -7,6 +7,7 @@ const ASSETS_TO_CACHE = [
   './dist/data-ch.js',
   './dist/data-de.js',
   './assets/Skull.png',
+  './assets/Customer-Questions.png',
   '/manifest.webmanifest',
   'https://fonts.googleapis.com/css2?family=Acme&family=Kanit&display=swap'
 ];
