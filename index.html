@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#06923E" />
+    <title>Alltag-App</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/Skull.png" alt="Alltag-App Logo" id="logo" />
+      <h1>Alltag-App</h1>
+      <button id="language-toggle" aria-label="Sprache wechseln" style="margin-left:auto; padding:0.5rem 1rem; font-size:1rem;">
+    Schwiizerdütsch
+  </button>
+    </header>
+    <main>
+      <section id="dialog-section" aria-live="polite" aria-atomic="true">
+        <!-- Dialoginhalte werden hier dynamisch eingefügt -->
+      </section>
+    </main>
+    <a href="https://iconscout.com/icons/skull" class="text-underline font-size-sm" target="_blank">Skull</a> by <a href="https://iconscout.com/contributors/smashingstocks" class="text-underline font-size-sm" target="_blank">Smashing Stocks</a>
+    <footer>
+      <p id="motto"></p>
+      <progress id="progress" value="0" max="10"></progress>
+    </footer>
+
+    <script type="module" src="./dist/app.js"></script>
+  </body>
+</html>

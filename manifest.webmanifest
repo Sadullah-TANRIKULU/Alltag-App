@@ -1,0 +1,21 @@
+{
+  "name": "Alltag-App",
+  "short_name": "Alltag",
+  "description": "Dialogbasierte Alltag-App für Zürihochdeutsch",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#D3ECCD",
+  "theme_color": "#06923E",
+  "icons": [
+    {
+      "src": "./assets/Skull.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/Skull.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
