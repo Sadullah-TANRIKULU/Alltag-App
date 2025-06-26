@@ -1,102 +1,122 @@
 export const story = [
-    {
-        scene: "Aufwachen",
-        character: "Ich",
-        topic: "Morgenroutine",
-        motto: "Übung macht den Meister",
-        phrases: [
-            "Guete Morge! Ziit für en neue Tag.",
-            "No chli schlofe? Aber d'Routine wartet."
-        ],
-    },
-    {
-        scene: "Bus",
-        character: "Oksana",
-        topic: "Soziologie",
-        motto: "Dein Erfolg steckt in deiner täglichen Routine",
-        phrases: [
-            "Hesch d'Soziologie-Prüefig scho gmacht?",
-            "Was meinsch zum neue Semester?"
-        ],
-    },
-    {
-        scene: "Hausaufgaben",
-        character: "Maria",
-        topic: "Schnelles Lernen",
-        motto: "Übung macht den Meister",
-        phrases: [
-            "Mir gönd d'Hausaufgabe zäme a.",
-            "Eifach Schritt für Schritt, das klappt!"
-        ],
-    },
-    {
-        scene: "Pause",
-        character: "Akash",
-        topic: "Pause Dauer",
-        motto: "Lügen haben kurze Beine",
-        phrases: [
-            "Wie lang isch d'Pause hüt?",
-            "Mir müend d'Ziit guet nutze."
-        ],
-    },
-    {
-        scene: "Mittagessen",
-        character: "Ali Akbar",
-        topic: "Job finden",
-        motto: "Gebet ändert das Schicksal",
-        phrases: [
-            "Ich suech no en Job, hesch Tipps?",
-            "Übung und Geduld sind wichtig."
-        ],
-    },
-    {
-        scene: "Nach der Arbeit",
-        character: "Roksolana",
-        topic: "Deutsche Aussprache",
-        motto: "Dein Erfolg steckt in deiner täglichen Routine",
-        phrases: [
-            "Wie chasch du dini Aussprache verbessere?",
-            "Viel üebe und nüt ufgeh!"
-        ],
-    },
-    {
-        scene: "Bibliothek",
-        character: "Bibliothekarin",
-        topic: "Wi-Fi und Kaffee",
-        motto: "Lügen haben kurze Beine",
-        phrases: [
-            "Wi-Fi funktioniert guet, aber Kaffee isch besser.",
-            "Ohni Kaffee gaht nüt, gäll?"
-        ],
-    },
-    {
-        scene: "Busfahrt",
-        character: "Busfahrer",
-        topic: "Schwiiezerdüetsch Begrüssig",
-        motto: "Übung macht den Meister",
-        phrases: [
-            "Guete Morge, mitenand!",
-            "Bitte schnallt euch ah, mir fahre jetzt."
-        ],
-    },
-    {
-        scene: "Zug",
-        character: "Zufällige Leute",
-        topic: "Buch 'Das Verbrechen ruht nie'",
-        motto: "Gebet ändert das Schicksal",
-        phrases: [
-            "Hesch das Buch scho gläse?",
-            "Es isch spannend, gäll?"
-        ],
-    },
-    {
-        scene: "Traum",
-        character: "Ich",
-        topic: "Traum erleben",
-        motto: "Dein Erfolg steckt in deiner täglichen Routine",
-        phrases: [
-            "Ich ha en komische Traum gha.",
-            "Was heisst das wohl?"
-        ],
-    }
+  {
+    scene: "Aufwachen",
+    character: "Ich",
+    topic: "Morgenroutine",
+    motto: "Übung macht den Meister",
+    phrases: [
+      "Guete Morge! Ziit für en neue Tag.",
+      "No chli schlofe? Aber d'Routine wartet.",
+      "Ziit zum uufstah, de Tag wartet nöd.",
+      "No fünf Minute, denn gaht’s los!",
+    ],
+  },
+  {
+    scene: "Bus",
+    character: "Oksana",
+    topic: "Soziologie",
+    motto: "Dein Erfolg steckt in deiner täglichen Routine",
+    phrases: [
+      "Hesch d'Soziologie-Prüefig scho gmacht?",
+      "Was meinsch zum neue Semester?",
+      "Hesch du gster s’Seminar verstande?",
+      "Ich finde, mir sötted öfters zäme lerne.",
+    ],
+  },
+  {
+    scene: "Hausaufgaben",
+    character: "Maria",
+    topic: "Schnelles Lernen",
+    motto: "Übung macht den Meister",
+    phrases: [
+      "Mir gönd d'Hausaufgabe zäme a.",
+      "Eifach Schritt für Schritt, das klappt!",
+      "Hüt probier ich mal e neui Lernmethode.",
+      "Mit chline Schritt chunnt me au ans Ziel.",
+    ],
+  },
+  {
+    scene: "Pause",
+    character: "Akash",
+    topic: "Pause Dauer",
+    motto: "Lügen haben kurze Beine",
+    phrases: [
+      "Wie lang isch d'Pause hüt?",
+      "Mir müend d'Ziit guet nutze.",
+      "Loh mir churz an d’frisch Luft gah.",
+      "Manchmal hälft e Spaziergang bim Nachdenke.",
+    ],
+  },
+  {
+    scene: "Mittagessen",
+    character: "Ali Akbar",
+    topic: "Job finden",
+    motto: "Gebet ändert das Schicksal",
+    phrases: [
+      "Ich suech no en Job, hesch Tipps?",
+      "Übung und Geduld sind wichtig.",
+      "Ich ha gster e interessante Stell gseh.",
+      "Villecht sötted mir zäme Bewerbigschriebe mache.",
+    ],
+  },
+  {
+    scene: "Nach der Arbeit",
+    character: "Roksolana",
+    topic: "Deutsche Aussprache",
+    motto: "Dein Erfolg steckt in deiner täglichen Routine",
+    phrases: [
+      "Wie chasch du dini Aussprache verbessere?",
+      "Viel üebe und nüt ufgeh!",
+      "Ich üebe jede Tag chli Uussproch.",
+      "Mit Geduld wird’s immer besser.",
+    ],
+  },
+  {
+    scene: "Bibliothek",
+    character: "Bibliothekarin",
+    topic: "Wi-Fi und Kaffee",
+    motto: "Lügen haben kurze Beine",
+    phrases: [
+      "Wi-Fi funktioniert guet, aber Kaffee isch besser.",
+      "Ohni Kaffee gaht nüt, gäll?",
+      "Das WLAN funktioniert hüt besonders schnäll.",
+      "Kaffee und Büecher – die perfekti Kombi.",
+    ],
+  },
+  {
+    scene: "Busfahrt",
+    character: "Busfahrer",
+    topic: "Schwiiezerdüetsch Begrüssig",
+    motto: "Übung macht den Meister",
+    phrases: [
+      "Guete Morge, mitenand!",
+      "Bitte schnallt euch ah, mir fahre jetzt.",
+      "Schöni Tag zäme!",
+      "Bitte iisteige, mir fahre gli ab.",
+    ],
+  },
+  {
+    scene: "Zug",
+    character: "Zufällige Leute",
+    topic: "Buch 'Das Verbrechen ruht nie'",
+    motto: "Gebet ändert das Schicksal",
+    phrases: [
+      "Hesch das Buch scho gläse?",
+      "Es isch spannend, gäll?",
+      "Das Buech isch würklich fesslig.",
+      "Ich cha kaum uufhöre z’läse.",
+    ],
+  },
+  {
+    scene: "Traum",
+    character: "Ich",
+    topic: "Traum erleben",
+    motto: "Dein Erfolg steckt in deiner täglichen Routine",
+    phrases: [
+      "Ich ha en komische Traum gha.",
+      "Was heisst das wohl?",
+      "Min Traum isch hüt rächt verruckt gsi.",
+      "Villecht steckt e Botschaft derhinder?",
+    ],
+  },
 ];
